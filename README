@@ -1,0 +1,7 @@
+Refactoring Yatzy Kata from Emily Bache (https://github.com/emilybache/Yatzy-Refactoring-Kata)
+
+Solution :
+Yatzy.java contient le refactoring en gardant l'aspect static des méthodes.
+Yatzy2.java contient le refactoring avec une approche plus objet ou la classe contient le jet de dés.
+
+Selon l'objectif d'utilisation de ces fonctions de calcul, Yatzy ou Yatzy2 peut etre plus ou moins adaptée.
