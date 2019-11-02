@@ -16,7 +16,7 @@ public class Roll {
     public Roll(int d1, int d2, int d3, int d4, int d5) {
         this.dices = Arrays.asList(d1, d2, d3, d4, d5);
         if(!validate()) {
-            throw new IllegalArgumentException("Some dices have illegal value");
+            throw new IllegalArgumentException("Illegal Dice value ! Should be between 1 and 6.");
         }
     }
 
