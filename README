@@ -1,7 +1,8 @@
 Refactoring Yatzy Kata from Emily Bache (https://github.com/emilybache/Yatzy-Refactoring-Kata)
 
-Solution :
-Yatzy.java contient le refactoring en gardant l'aspect static des méthodes.
-Yatzy2.java contient le refactoring avec une approche plus objet ou la classe contient le jet de dés.
+Utilisation du Design Pattern Strategy.
+Chaque categorie est une  classe de Strategy différente ayant l'unique responsabilité de calculer le score de sa categorie.
 
-Selon l'objectif d'utilisation de ces fonctions de calcul, Yatzy ou Yatzy2 peut etre plus ou moins adaptée.
+Points ouverts : 
+ - J'ai hésite à utiliser une enum pour modéliser un Dé et sa valeur.
+ - Nommage des classe de Strategy avec un suffixe ?
