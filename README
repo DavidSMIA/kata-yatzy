@@ -6,3 +6,4 @@ Chaque categorie est une  classe de Strategy différente ayant l'unique responsa
 Points ouverts : 
  - J'ai hésite à utiliser une enum pour modéliser un Dé et sa valeur.
  - Nommage des classe de Strategy avec un suffixe ?
+ - Roll : List vs Array
